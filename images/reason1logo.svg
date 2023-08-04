@@ -1,0 +1,15 @@
+<svg id="_2つの理由" data-name="2つの理由" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="147" viewBox="0 0 148 147">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_28" data-name="Rectangle 28" width="142" height="142" fill="none"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_10" data-name="Ellipse 10" cx="69" cy="69" r="69" transform="translate(10 9)" fill="#ed6b2c"/>
+  <g id="Group_34" data-name="Group 34">
+    <g id="Group_33" data-name="Group 33" clip-path="url(#clip-path)">
+      <path id="Path_54" data-name="Path 54" d="M19.773,19.164A69.106,69.106,0,0,1,121.89,111.136" transform="translate(5.07 0.385)" fill="none" stroke="#f0f1f2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_55" data-name="Path 55" d="M117.241,116.281A69.1,69.1,0,0,1,16.562,22.219" transform="translate(0.385 5.697)" fill="none" stroke="#f0f1f2" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+  <text id="_1" data-name="1" transform="translate(48 105)" fill="#28226f" font-size="88" font-family="NotoSans-Bold, Noto Sans" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+</svg>

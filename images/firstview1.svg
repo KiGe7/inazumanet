@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1370.62" height="1080" viewBox="0 0 1370.62 1080">
+  <defs>
+    <linearGradient id="linear-gradient" spreadMethod = "reflect" x1="149.9" y1="297.6" x2="691.9" y2="297.6">
+
+<animate attributeName = "x1" dur = "5s" from = "-100%" to = "100%" repeatCount = "indefinite"/>
+<animate attributeName = "x2" dur = "5s" from = "0%" to = "200%" repeatCount = "indefinite"/>　
+      <stop offset="0" stop-color="#ed6b2c"/>
+      <stop offset="1" stop-color="#28226f"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_48" data-name="Path 48" d="M-59.419,0V1080H317.163s247.07-98.874,379.921-368.874c54.6-110.97,61.7-311,213.346-471.679S1235.9,78.754,1303.655,68.424c16.98-2.589,0-68.424,0-68.424Z" transform="translate(59.419)" opacity="0.796" fill="url(#linear-gradient)"/>
+</svg>
+
