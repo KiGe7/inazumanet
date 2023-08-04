@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Inazuma Net</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'yyg7ams',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+
+<script>
+
+$(function(){
+	$(window).on('resize scroll', function() {
+		var
+		badge = $('.sti_container1'),
+		footer = $('.foot'),
+		badgeY = badge.offset().top,
+		badgeH = badge.innerHeight(),
+		footerY = footer.offset().top,
+		badgeYadjust = badgeY + (badgeH/2);
+		
+		if(footerY < badgeYadjust) {
+			badge.addClass('blue');
+		} else {
+			badge.removeClass('blue');
+		}
+	});
+});
+
+</script>  
+  
+  
+  
+  
+  <script>
+
+$(function(){
+	$(window).on('resize scroll', function() {
+		var
+		badge = $('.webSP'),
+		footer = $('.foot'),
+		badgeY = badge.offset().top,
+		badgeH = badge.innerHeight(),
+		footerY = footer.offset().top,
+		badgeYadjust = badgeY + (badgeH/2);
+		
+		if(footerY < badgeYadjust) {
+			badge.addClass('bluesp');
+		} else {
+			badge.removeClass('bluesp');
+		}
+	});
+});
+
+</script>  
+  
+  
+  
+</head>
+
+<body>
+
+<div class="wrapper">
+	
+	
+	<!--------------- First View --------------->
+	
+	
+	
+	<section class="first_view">
+	
+		<img class="firstv2" src="images/firstview1.svg" alt=""/>
+		
+		<header>
+			<img class="logo" src="images/logo1.svg" alt=""/>
+			<img class="header_bg" src="images/header_bg.svg" alt=""/>
+		</header>
+		
+   		 <div class="limitapp">
+    		<p class="p1">WEBお申し込み限定！</p>
+     		<p class="p2">新規入会申込キャンペーン！！</p>
+		 </div>
+		
+		<p class="cashb text1">CASHBACK</p>
+		<p class="cashb text2"><span>￥</span>10,000</p>
+		<p class="plus"><span></span><span></span></p>
+		<div class="monthlyf">
+			<p>￥</p>
+			<p>980</p>
+			<!--<p>/月</p>-->
+		</div>
+	<p class="monthfee">Monthly Fee</p>
+		<div class="app_options">
+			<img src="images/web_app.svg" alt=""/>
+			<img src="images/phone_app.svg" alt=""/></div>	
+	</section>
+	
+	<div class="app_options_sp">
+	
+		<div class="webSP bluesp">
+    <img class="blueiconsp" src="images/blueicon.svg" alt=""/>
+		<img class="whiteiconsp" src="images/webiconsp.svg" alt=""/>
+		<p>WEB申込</p>
+		</div>
+		
+		<div class="phoneSP">
+		<p>電話相談</p>
+		<img src="images/pshoneiconsp.svg" alt=""/>
+		</div>
+	
+	</div>
+	
+		<div class="sti_container1">
+  <button class="btn">
+	 
+    <span class="btn-icon">
+      <img class="blueicon" src="images/blueicon.svg" alt=""/>
+      <img class="whiteicon" src="images/webicononly.svg" alt=""/></span>
+	  <span class="btn-text">WEB申込</span>
+  </button>
+</div>
+	
+	
+			
+		<div class="sti_container2">
+  <button class="btn">
+	 
+    <span class="btn-icon"><img src="images/phoneicononly.svg" alt=""/></span>
+	  <span class="btn-text">電話相談</span>
+  </button>
+</div>
+		
+	<!--------------- Campaign Details--------------->
+	
+	
+	
+  <section class="campaign_details">
+	
+		<h2 class="sub_tit reveal">おトクな<br>キャンペーン実施中！</h2>
+	
+	<div class="discount1 reveal">
+		
+		
+ 
+			<p class="lightening1">
+        
+        <img src="images/lightening.svg" alt=""/></p>
+			<p>新規入会申し込み特典</p>
+			<p>工事費実質<br>設定サポート</p>
+			<p>無料</p>
+			<img src="images/lightening.svg" alt=""/>
+	  </div>
+	  
+	  
+      <div class="bubbles">
+   
+            <div class="discount2 reveal left">
+              <p>いまなら!</p>
+              <p>ご利用開始から6ヶ月後に</p>
+              <p>CASHBACK</p>
+              <p><span>￥</span>10,000</p>
+              <p>詳細はこちら</p>
+				<img class="campaigndate" src="images/campaign_date.svg" alt=""/>
+          </div>
+          
+		  
+		  
+		  <div class="discount1_SP">
+			<p>新規入会申し込み特典</p>
+            <div class="dis1sptext">
+              <p>工事費実質<br>設定サポート</p>
+              <p>無料!</p>
+            </div>
+		  </div>
+		  
+		  
+		  
+		  
+		  
+		  
+          <div class="discount3 reveal right">
+            <p class="monthlytit">月額料金が1年間</p>
+            <div class="monthly">
+              <div class="initialprice">
+                <p>通常</p>
+                <p><span>￥</span>5,200</p>
+              </div>
+              <p><img src="images/vector.svg" alt=""/></p>
+              <p class="newprice"><span>￥</span>980</p>
+            </div>
+        </div>
+    </div>
+	  
+	  
+	 <p class="cautions reveal">※ 特典の適用に関しては、各種諸条件があります。お申し込み前に注意事項をご確認ください。<br>
+「注意事項」は<a href="#">こちら!</a></p> 
+	  
+	  
+	  
+    </section>
+	
+	
+	<!---------------Apply--------------->
+	
+	
+	<section class="apply">
+		<img class="backimg2" src="images/backgimg2.svg" alt=""/>
+	<h2 class="apptit reveal left">お申し込みはこちらから</h2>
+		<div class="app_options2">
+		
+			<div class="app_op1 reveal right">
+				<p>GET<span><img src="images/vector2.svg" alt=""/></span></p>
+				<p><span>WEB</span>お申込が</p>
+				<p><span>断然</span>おトク！</p>
+				<p>今すぐ申し込む</p>
+				<img class="amazongift" src="images/amazongift.svg" alt=""/>
+			</div>
+			
+			
+			<div class="app_op2 reveal right">
+				<p>オペレーターが</p>
+				<p><span>電話</span>でご案内！</p>
+				<p>今すぐ相談する</p>
+			</div>
+
+		</div>
+	
+	</section>
+	
+	<!---------------Applying Process--------------->
+	
+	<section class="appl_process">
+	
+		<h2 class="reveal">お申し込みまでの流れは<br><span><img src="images/vectors.svg" alt=""/></span><br>
+      <a href="#">こちら</a></h2>
+		<p class="reveal">※賃貸住宅にお住まいの場合<br>
+『工事実施の承諾』を建物所有者さまに、お客さまご自身でとっていただく必要があります。</p>
+	
+	</section>
+	
+	
+	
+	<!---------------Merits--------------->
+	
+	
+	
+	<section class="merits">
+	
+		<h2 class=" merits_tit reveal">快適なインターネット生活ならInazuma Net！</h2>
+		<h2 class="merit_sp_tit">Inazuma Netが<br>選ばれる2つの理由！</h2>
+	  <h3 class="reveal">選ばれる2つの理由</h3>
+	
+		
+	<div class="reason1">
+		<div class="reason1_cont">
+			<img  class="reveal left" src="images/couple.jpg" width="4896" height="3264" alt=""/>
+			<div class="r1_text reveal right">
+				<div class="r1_text_tit">
+					<p>高速・高品質！</p>
+					<img src="images/reason1logo.svg" alt=""/>
+				</div>
+			<p class="r1_conttext">下り最大2Gbpsだから、重い動画もさくさくダウンロード！<br>オンラインゲームも快適に楽しめます！</p>
+			</div>
+		</div>
+	</div>
+		
+		
+		
+		<div class="reason2">
+		<div class="reason2_cont">
+			<div class="r2_text">
+				<div class="r2_text_tit reveal left">
+					<img src="images/reason2logo.svg" alt=""/>
+					<p>Wi-Fi使い放題！</p>
+				</div>
+			<p class="r2_conttext reveal left">Wi-Fiも高速だから家の中のどこで使っても大丈夫！<br>開通後すぐにWi-Fiが使えます！</p>
+			</div>
+			<img class="reveal right" src="images/reason2.jpg" width="4896" height="3264" alt=""/>
+		</div>
+	</div>
+		
+	</section>
+	
+	
+	<!---------------Rental Wifi--------------->
+	
+	
+	<section class="rent_wifi">
+	
+	<div class="rent_wifi_cont">
+		
+		
+		<img class="reveal left" src="images/wifi.jpg" width="6720" height="4480" alt=""/>
+		
+		<div class="rent_wifi_text reveal right">
+		
+			<h2>開通までの期間も安心！</h2>
+			<p>レンタルWi-Fi</p>
+			<p class="wifispimg"></p>
+			<p>お申し込みから開通までの間にインターネット環境が必要な場合は、<br>ご契約者様対象のレンタルWi-Fiをご用意しています。</p>
+			<p>詳細はこちら</p>
+			
+
+		</div>
+		
+		</div>
+	
+	</section>
+	
+	
+	
+	<footer class="foot">
+  		<p>快適なインターネット生活なら</p>
+        <img src="images/inazuma_footer_logo.svg" alt=""/>
+        <p>&copy; 2021 Inazuma Network Inc. All Rights Reserved.</p>
+    
+		
+    </footer>
+	
+	</div>
+
+	
+<script>
+	function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+window.addEventListener("scroll", reveal);
+</script>
+
+
+
+</body>
+</html>
